@@ -1,9 +1,11 @@
 
-这个是在csdn 📱的 ，测试了几个；好用的！ 这边是转载的，如有冒犯，直接开骂吧！我会删掉的 
+这个是在csdn 📱的 ，测试了几个；好用的！ 
 
-2022新浪商品期货 api
+# 2022新浪商品期货 api
 
-新浪期货数据各品种代码（商品连续）如下
+## 新浪期货数据各品种代码（商品连续）如下
+
+```sku
 RB0 螺纹钢
 AG0 白银
 AU0 黄金
@@ -31,6 +33,9 @@ ER0 籼稻
 ME0 甲醇
 RO0 菜油
 TA0 甲酸
+```
+
+```url
 商品期货
 http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLineXm?symbol=CODE
 例子：
@@ -58,13 +63,13 @@ http://stock2.finance.sina.com.cn/futures/api/json.php/CffexFuturesService.getCf
 http://stock2.finance.sina.com.cn/futures/api/json.php/CffexFuturesService.getCffexFuturesMiniKLine60m?symbol=IF1306
 日线
 http://stock2.finance.sina.com.cn/futures/api/json.php/CffexFuturesService.getCffexFuturesDailyKLine?symbol=IF1306
+```
 
 
 
 
-
-新浪股票接口：
-
+## 新浪股票接口：
+```api
 最近二十天左右的每5分钟数据 
 http://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol=sz000001&scale=5&ma=5&datalen=1023 
 （参数：股票编号、分钟间隔（5、15、30、60）、均值（5、10、15、20、25）、查询个数点（最大值242））
@@ -74,7 +79,6 @@ http://suggest3.sinajs.cn/suggest/type=&key=000627&name=suggestdata_142977578540
 
 查询股票最新行情 
 http://hq.sinajs.cn/list=sh601003,sh601001
-————————————————
-版权声明：本文为CSDN博主「weixin_44694912」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/weixin_44694912/article/details/118739689
+
+```
 
