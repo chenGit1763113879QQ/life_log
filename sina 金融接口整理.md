@@ -36,7 +36,7 @@ TA0 甲酸
 ```
 
 ```url
-商品期货
+商品期货  废弃，数据只有7月份的；日线还是可以用的
 http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLineXm?symbol=CODE
 例子：
 http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLine5m?symbol=M0
